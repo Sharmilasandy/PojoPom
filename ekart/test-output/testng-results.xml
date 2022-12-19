@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17061" started-at="2022-07-08T03:44:01Z" finished-at="2022-07-08T03:44:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17061" started-at="2022-07-08T03:44:01Z" finished-at="2022-07-08T03:44:18Z">
+      <class name="com.amazon.test.loginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.test.loginTest@4dfa3a9d]" name="setup" is-config="true" duration-ms="9884" started-at="2022-07-08T03:44:01Z" finished-at="2022-07-08T03:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login_with_validcred()[pri:0, instance:com.amazon.test.loginTest@4dfa3a9d]" name="login_with_validcred" duration-ms="6649" started-at="2022-07-08T03:44:10Z" finished-at="2022-07-08T03:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_validcred -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.amazon.test.loginTest@4dfa3a9d]" name="teardown" is-config="true" duration-ms="482" started-at="2022-07-08T03:44:17Z" finished-at="2022-07-08T03:44:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.amazon.test.loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
